@@ -4,7 +4,7 @@ import xmlrpc.client
 # Set your WordPress credentials and URL
 wordpress_url = 'https://ghanainsider.com/xmlrpc.php'
 wordpress_username = 'Editorial Team'
-wordpress_password = 'ntH*U3B9su4$Q0My'
+wordpress_password = ''
 
 # Connect to WordPress via XML-RPC
 wp = xmlrpc.client.ServerProxy(wordpress_url)
